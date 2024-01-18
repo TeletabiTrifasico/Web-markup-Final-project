@@ -1,0 +1,215 @@
+body{
+  background-color: #2382AB;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td{
+  padding: 10px;
+  border: 1px solid #fff;
+}
+th {
+  background-color: #115876;
+  color: white;
+}
+tr:nth-child(even){
+  background-color: #CFF;
+}
+tr:nth-child(odd){
+  background-color: #FFF;
+}
+header{
+  height: 12%;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #115876;
+  border-bottom: 2px solid #2382AB;
+}
+.logo{
+  width: 175px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  text-align: right;
+  float: right;
+}
+nav > ul {
+  /* Selects children of nav wich are the "ul" */
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+nav ul li a,
+h1,
+.list{
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+nav ul li a:visited{
+  color: #ffffff; 
+}
+h1{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom: 1px solid #ffffff;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.videomenu{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainvideo{
+  margin: 15px auto;
+  width: 100%;
+  max-width: 950px;
+  border: 1px solid #2382AB;
+}
+.videolistcontainers{
+  flex:1 1 100%;
+  justify-content: space-around;
+  margin: 30px 2% 0 2%;
+  height: 525px;
+  overflow-y: auto;
+} 
+.listvideo{
+  width:100px;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+.list,
+.body{
+  position: relative;
+  display:flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  gap: 10px;
+  word-spacing: 2px;
+
+  border: 2px solid #115876;
+}
+footer{
+  width:100%;
+  background-color: #115876;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footermedia{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  color:white;
+  border-top: 2px solid #2382AB;
+  padding-top: 15px;
+  position: relative;
+}
+.copiright{
+  color: #dcd6d6;
+}
+p{
+  color: white;
+  margin-left:30px;
+  margin-right: 30px; 
+  margin-bottom: 15px;
+  text-indent: 20px;
+  line-height: 1.6;
+}
+p::first-letter {
+  font-size: 1.5em; 
+}
+.text{
+  text-align: center;
+}
+.body{
+  text-align: center;
+  flex-direction: column;
+  background-color: #115876;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  word-spacing: 2px;
+}
+strong{
+  border-bottom: 1px solid #ffffff;
+}
+li{
+  color: #fff;
+  list-style: none;
+}
+.reason{
+  width: 100%;
+  max-width: 200px;
+  height: 100px;
+}
+.submit{
+  margin: 1em;
+}
+.other{
+  height: 75px;
+  width: 100%;
+  max-width: 200px;
+}
+/*
+Makes the cards on the main page responsive
+*/
+.col{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.background{
+  height: 465px;
+}
+legend{
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  nav ul li {
+    margin-left: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .mainvideo {
+    width: 100%;
+  }
+
+  .videolistcontainers {
+    margin: 15px 1% 0 1%;
+  }
+}

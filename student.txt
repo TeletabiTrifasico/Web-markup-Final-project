@@ -1,0 +1,5 @@
+Student name: Hugo 
+Student number: 707828
+Student class: IT1A
+GitHub Repository: https://github.com/TeletabiTrifasico/web-markup-template-main
+GitHub Pages URL: https://teletabitrifasico.github.io/web-markup-template-main/index.html
